@@ -1,0 +1,54 @@
+body,ol,ul,li,h1,h2,h3,h4,h5,h6,p,tr,td,th,dl,dt,dd,form,fieldset,legend,input,textarea,
+select,div,table,img,button,span,video,audio,header,footer,nav,section,i,a{
+    margin: 0;
+    padding: 0;
+}/*初始化样式*/
+body{
+    font-size: 12px;
+    line-height: 1.4286;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}/*a标签初始化*/
+a:hover{
+    color: #000 !important;
+}
+img{
+    vertical-align: middle;
+    border:none;
+}
+input{
+    outline: none;
+}
+select,input{
+    vertical-align: middle;
+}
+ul,ol{
+    list-style: none;
+}
+textarea{
+    resize: none;
+}
+.clearfix::after{
+    content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+    clear: both;
+}
+.clearfix{
+    *zoom:1;
+}
+h1,h2,h3,h4,h5,h6{
+    text-decoration: none;
+    font-weight: normal;
+}
+i,em{
+    font-style: normal;
+}
+.w{
+    width: 1226px;
+    margin:0 auto;
+}
